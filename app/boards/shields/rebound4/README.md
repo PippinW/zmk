@@ -2,7 +2,7 @@
 
 Some general notes/commands for building the Montsinger Rebound from the assembly documentation.
 
-## 1u and 2u Layouts
+## Layouts Using 1u and/or 2u Thumb Keys
 
 If you built your Rebound with 2u keys on the bottom row, key-presses of the inside/second column key on the bottom row will be redundant.
 
