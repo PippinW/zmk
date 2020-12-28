@@ -34,10 +34,25 @@ As an example template of each layout, the default keymap uses a uniform 1u layo
 
 ## Encoder Notes
 
-If you built your Rebound without encoders, you will need to change the following in your local Rebound config or add them to the end of the file.
+If you built your Rebound with encoders, you will need to uncomment the following two lines in your Reboubnd config file:
 
 ```
+# Uncomment these two lines to add support for encoders
+# CONFIG_EC11=y
+# CONFIG_EC11_TRIGGER_GLOBAL_THREAD=y
+```
+
+To:
+```
+# Uncomment these two lines to add support for encoders
 CONFIG_EC11=y
 CONFIG_EC11_TRIGGER_GLOBAL_THREAD=y
+```
+
+If you built your Rebound without encoders, you will need to replace the two lines in your Rebound config file to:
+
+```
+CONFIG_EC11=n
+CONFIG_EC11_TRIGGER_GLOBAL_THREAD=n
 ```
 
