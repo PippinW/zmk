@@ -49,7 +49,7 @@ CONFIG_EC11=y
 CONFIG_EC11_TRIGGER_GLOBAL_THREAD=y
 ```
 
-If you built your Rebound without encoders, you will need to replace the two lines in your Rebound config file to:
+If you built your Rebound without encoders, you will need to replace the two lines in your Rebound config file with:
 
 ```
 CONFIG_EC11=n
