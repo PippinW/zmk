@@ -17,9 +17,9 @@ As an example template of each layout, the default keymap uses a uniform 1u layo
         default_layer {
 // -------------------------------------------------------------------------------------
 // |   Q   |   W   |   E   |    R   |  T  |  1   |                |  1  |    Y   |    U   |   I   |   O   |   P   |
-// | CMD/A | ALT/S | CTL/D | SHFT/F |  G  |  2   |    | TAB  |    |  2  |    H   | SHFT/J | CTL/K | ALT/L | CMD/' |
+// | GUI/A | ALT/S | CTL/D | SHFT/F |  G  |  2   |    | TAB  |    |  2  |    H   | SHFT/J | CTL/K | ALT/L | GUI/' |
 // |   Z   |   X   |   C   |    V   |  B  |  3   |    | RET  |    |  3  |    N   |    M   |   ,   |   .   |   /   |
-// | CTRL  |  ALT  |  CMD  |  SHFT  | DEL | BSPC |    | CAPS |    | SPC |optional|  CMD   |  ALT  |  CTRL |   ;   |
+// | CTRL  |  ALT  |  GUI  |  SHFT  | DEL | BSPC |    | CAPS |    | SPC |optional|   GUI  |  ALT  |  CTRL |   ;   |
 //                         					  
 		bindings = <
    &kp Q       &kp W      &kp E       &kp R       &kp T   &mo 1               &mo 1     &kp Y     &kp U       &kp I       &kp O      &kp P
