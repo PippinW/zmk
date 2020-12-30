@@ -4,6 +4,6 @@
 if SHIELD_REBOUND4
 
 config ZMK_KEYBOARD_NAME
-    default "Rebound"
+    default "Rebound v4"
 
 endif
