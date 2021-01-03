@@ -106,6 +106,7 @@ select opt in "${options[@]}" "Quit"; do
     4 ) shield_title="Splitreus62" shield="splitreus62"; split="y"; break;;
     5 ) shield_title="Sofle" shield="sofle"; split="y"; break;;
     6 ) shield_title="Iris" shield="iris"; split="y"; break;;
+    7 ) shield_title="Rebound4" sheild="rebound"; split="n"; break;;
     7 ) shield_title="Reviung41" shield="reviung41"; split="n"; break;;
     8 ) shield_title="RoMac" shield="romac"; split="n"; break;;
     9 ) shield_title="RoMac+" shield="romac_plus"; split="n"; break;;
