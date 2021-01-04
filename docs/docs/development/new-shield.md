@@ -111,6 +111,16 @@ if SHIELD_MY_BOARD_RIGHT
 config ZMK_KEYBOARD_NAME
 	default "My Awesome Keyboard Right"
 
+config USB
+	default y
+
+endif
+
+if SHIELD_MY_BOARD_LEFT || SHIELD_MY_BOARD_RIGHT
+
+config ZMK_SPLIT
+	default y
+
 endif
 
 if SHIELD_MY_BOARD_LEFT || SHIELD_MY_BOARD_RIGHT
