@@ -92,7 +92,7 @@ echo ""
 echo "Keyboard Shield Selection:"
 
 prompt="Pick an keyboard:"
-options=("Kyria" "Lily58" "Corne" "Splitreus62" "Sofle" "Iris" "Rebound4" "Reviung41" "RoMac" "RoMac+" "makerdiary M60" "Microdox" "TG4X" "QAZ" "Jorne" "Jian" "CRBN" "Tidbit")
+options=("Kyria" "Lily58" "Corne" "Splitreus62" "Sofle" "Iris" "Reviung41" "RoMac" "RoMac+" "makerdiary M60" "Microdox" "TG4X" "QAZ" "Jorne" "Jian" "CRBN" "Tidbit" "Eek!" "BF0-9000")
 
 PS3="$prompt "
 # TODO: Add support for "Other" and linking to docs on adding custom shields in user config repos.
@@ -107,7 +107,6 @@ select opt in "${options[@]}" "Quit"; do
     4 ) shield_title="Splitreus62" shield="splitreus62"; split="y"; break;;
     5 ) shield_title="Sofle" shield="sofle"; split="y"; break;;
     6 ) shield_title="Iris" shield="iris"; split="y"; break;;
-    7 ) shield_title="Rebound4" sheild="rebound"; split="n"; break;;
     7 ) shield_title="Reviung41" shield="reviung41"; split="n"; break;;
     8 ) shield_title="RoMac" shield="romac"; split="n"; break;;
     9 ) shield_title="RoMac+" shield="romac_plus"; split="n"; break;;
@@ -120,6 +119,8 @@ select opt in "${options[@]}" "Quit"; do
     16 ) shield_title="Jian" shield="jian"; split="y"; break;;
     17 ) shield_title="CRBN" shield="crbn"; split="n"; break;;
     18 ) shield_title="Tidbit" shield="tidbit"; split="n" break;;
+    19 ) shield_title="Eek!" shield="eek"; split="n" break;;
+    17 ) shield_title="BFO-9000" shield="bfo9000"; split="y"; break;;
 
     # Add link to docs on adding your own custom shield in your ZMK config!
     # $(( ${#options[@]}+1 )) ) echo "Other!"; break;;
