@@ -50,7 +50,6 @@ jobs:
           - qaz
           - quefrency_left
           - quefrency_right
-          - rebound4
           - reviung41
           - romac
           - romac_plus
