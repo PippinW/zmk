@@ -95,10 +95,10 @@ $options = "Kyria", "Lily58", "Corne", "Splitreus62", "Sofle", "Iris", "Reviung4
 $names = "kyria", "lily58", "corne", "splitreus62", "sofle", "iris", "reviung41", "romac", "romac_plus", "m60", "microdox", "tg4x", "qaz", "nibble", "jorne", "jian", "crbn", "tidbit", "eek", "bfo9000", "helix"
 $splits = "y", "y", "y", "y", "y", "y", "n", "n", "n", "n", "y", "n", "n", "n", "y", "y", "n", "n", "n", "n", "y"
 =======
-$options = "Kyria", "Lily58", "Corne", "Splitreus62", "Sofle", "Iris", "Rebound", "Reviung41", "RoMac", "RoMac+", "makerdiary M60", "Microdox", "TG4X", "QAZ", "NIBBLE", "Jorne", "Jian", "CRBN", "Tidbit"
-$names = "kyria", "lily58", "corne", "splitreus62", "sofle", "iris", "rebound4", "reviung41", "romac", "romac_plus", "m60", "microdox", "tg4x", "qaz", "nibble", "jorne", "jian", "crbn", "tidbit"
-$splits = "y", "y", "y", "y", "y", "y", "n", "n", "n", "n", "n", "y", "n", "n", "n", "y", "y", "n", "n"
->>>>>>> a4876bc... Update setup.ps1
+$options = "Kyria", "Lily58", "Corne", "Splitreus62", "Sofle", "Iris", "Reviung41", "RoMac", "RoMac+", "makerdiary M60", "Microdox", "TG4X", "QAZ", "NIBBLE", "Jorne", "Jian", "CRBN", "Tidbit", "Eek!", "BFO-9000"
+$names = "kyria", "lily58", "corne", "splitreus62", "sofle", "iris", "reviung41", "romac", "romac_plus", "m60", "microdox", "tg4x", "qaz", "nibble", "jorne", "jian", "crbn", "tidbit", "eek", "bfo9000"
+$splits = "y", "y", "y", "y", "y", "y", "n", "n", "n", "n", "y", "n", "n", "n", "y", "y", "n", "n", "n", "n"
+>>>>>>> d6e85cd... Merge
 
 $choice = Get-Choice-From-Options -Options $options -Prompt $prompt
 $shield_title = $($options[$choice])
