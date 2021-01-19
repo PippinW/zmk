@@ -44,6 +44,7 @@ int zmk_widget_wpm_status_init(struct zmk_widget_wpm_status *widget, lv_obj_t *p
     wpm_status_init();
     widget->obj = lv_label_create(parent, NULL);
     lv_obj_add_style(widget->obj, LV_LABEL_PART_MAIN, &label_style);
+    lv_label_set_align(widget->obj, LV_LABEL_ALIGN_RIGHT);
 
     lv_obj_set_size(widget->obj, 40, 15);
     set_wpm_symbol(widget->obj, 0);
